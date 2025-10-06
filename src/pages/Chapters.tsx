@@ -17,8 +17,96 @@ const Chapters = () => {
       email: 'uon@kmun.org',
       members: 120,
       established: 2002,
-      logo: '/images/chapters/uon.jpg',
+      logo: '/images/chapters/uon-logo.jpg', // expected: uon-logo.jpg
       description: 'The founding chapter of KMUN, known for excellence in General Assembly simulations.'
+    },
+    {
+      id: 9,
+      university: 'Rongo University',
+      location: 'Rongo',
+      lead: 'Olodi Arnold Maurice',
+      email: 'rongo@kenyamodelun.or.ke',
+      members: 25,
+      established: 2024,
+      logo: '/images/chapters/rongo-logo.jpg', // expected: rongo-logo.jpg
+      description: 'Founded in 2024; focuses on GA and ILC simulations with active community engagement.'
+    },
+    {
+      id: 10,
+      university: 'Africa Nazarene University',
+      location: 'Nairobi',
+      lead: 'Victor Mwangolo',
+      email: 'anu@kenyamodelun.or.ke',
+      members: 43,
+      established: 2004,
+      logo: '/images/chapters/anu-logo.jpg', // expected: anu-logo.jpg
+      description: 'Founded in 2004; strong legacy in leadership and diplomacy training.'
+    },
+    {
+      id: 11,
+      university: 'JKUAT Main Campus',
+      location: 'Juja',
+      lead: 'Meek Amani',
+      email: 'jkuatmain@kenyamodelun.or.ke',
+      members: 80,
+      established: 2019,
+      logo: '/images/chapters/jkuat-logo.jpg', // expected: jkuat-logo.jpg
+      description: 'Established in 2019; vibrant chapter with multiple awards and strong structures.'
+    },
+    {
+      id: 12,
+      university: 'Kenyatta University (Local Secretariats)',
+      location: 'Nairobi',
+      lead: 'Alex Mbabu',
+      email: 'ku@kenyamodelun.or.ke',
+      members: 100,
+      established: 2003,
+      logo: '/images/chapters/ku-logo.jpg', // expected: ku-logo.jpg
+      description: 'Active chapter with strong GA, ICJ, and ILC participation across sessions.'
+    },
+    {
+      id: 13,
+      university: 'KCA University',
+      location: 'Nairobi',
+      lead: 'Annette Sebby',
+      email: 'kca@kenyamodelun.or.ke',
+      members: 60,
+      established: 2024,
+      logo: '/images/chapters/kca-logo.jpg', // expected: kca-logo.jpg
+      description: 'Dynamic new chapter (2024) focused on informed, intentional, impactful youth leadership.'
+    },
+    {
+      id: 14,
+      university: 'Multimedia University',
+      location: 'Nairobi',
+      lead: 'Eugene Gusmao',
+      email: 'mmu@kenyamodelun.or.ke',
+      members: 70,
+      established: 2018,
+      logo: '/images/chapters/mmu-logo.jpg', // expected: mmu-logo.jpg
+      description: 'Established around 18th session; consistent performance and structured leadership.'
+    },
+    {
+      id: 15,
+      university: 'Catholic University of Eastern Africa (CUEA)',
+      location: 'Nairobi',
+      lead: 'Kyle Joseph',
+      email: 'cuea@kenyamodelun.or.ke',
+      members: 85,
+      established: 2017,
+      logo: '/images/chapters/cuea-logo.jpg', // expected: cuea-logo.jpg
+      description: 'Founded in 2017; multi-award-winning chapter with strong digital engagement.'
+    },
+    {
+      id: 16,
+      university: 'Maseno University',
+      location: 'Kisumu',
+      lead: 'Milcah Chepkoech',
+      email: 'maseno@kenyamodelun.or.ke',
+      members: 50,
+      established: 2022,
+      logo: '/images/chapters/maseno-logo.jpg', // expected: maseno-logo.jpg
+      description: 'Formed in 2022; GA and ILC focus with noted chapter and individual awards.'
     },
     {
       id: 2,
@@ -28,7 +116,7 @@ const Chapters = () => {
       email: 'ku@kmun.org',
       members: 95,
       established: 2003,
-      logo: '/images/chapters/ku.jpg', 
+      logo: '/images/chapters/ku-logo.jpg', // expected: ku-logo.jpg
       description: 'Specializes in Security Council debates and crisis simulations.'
     },
     {
@@ -39,7 +127,7 @@ const Chapters = () => {
       email: 'strathmore@kmun.org',
       members: 80,
       established: 2005,
-      logo: '/images/chapters/strathmore.jpg',
+      logo: '/images/chapters/strathmore-logo.jpg', // expected: strathmore-logo.jpg
       description: 'Renowned for their International Court of Justice expertise.'
     },
     {
@@ -50,7 +138,7 @@ const Chapters = () => {
       email: 'usiu@kmun.org',
       members: 75,
       established: 2006,
-      logo: '/images/chapters/usiu.jpg',
+      logo: '/images/chapters/usiu-logo.jpg', // expected: usiu-logo.jpg
       description: 'Focus on international law and human rights advocacy.'
     },
     {
@@ -61,7 +149,7 @@ const Chapters = () => {
       email: 'moi@kmun.org',
       members: 65,
       established: 2008,
-      logo: '/images/chapters/moi.jpg',
+      logo: '/images/chapters/moi-logo.jpg', // expected: moi-logo.jpg
       description: 'Leading chapter in Western Kenya with strong community outreach.'
     },
     {
@@ -72,7 +160,7 @@ const Chapters = () => {
       email: 'mku@kmun.org',
       members: 55,
       established: 2010,
-      logo: '/images/chapters/mku.jpg',
+      logo: '/images/chapters/mku-logo.jpg', // expected: mku-logo.jpg
       description: 'Environmental and agricultural policy specialization.'
     },
     {
@@ -83,7 +171,7 @@ const Chapters = () => {
       email: 'maseno@kmun.org',
       members: 50,
       established: 2012,
-      logo: '/images/chapters/kmun.jpg',
+      logo: '/images/chapters/maseno-logo.jpg', // expected: maseno-logo.jpg
       description: 'Lake region chapter with focus on sustainable development.'
     },
     {
@@ -94,7 +182,7 @@ const Chapters = () => {
       email: 'tuk@kmun.org',
       members: 45,
       established: 2015,
-      logo: '/images/chapters/kmun.jpg',
+      logo: '/images/chapters/tuk-logo.jpg', // expected: tuk-logo.jpg
       description: 'Technology and innovation in diplomatic solutions.'
     }
   ];

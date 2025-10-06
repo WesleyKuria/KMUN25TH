@@ -7,155 +7,275 @@ const Leadership = () => {
   const pastLeaders = [
     {
       id: 1,
-      name: 'SG2025',
+      name: 'Simon Kimuhu Muriithi',
       position: 'Secretary General',
       session: '25th Session',
       year: '2025-2026',
-      university: 'University of Nairobi',
-      image: '/images/profile-pictures/image.jpg',
-      email: '.SG.kmun.org',
-      linkedin: 'diplomacy',
+      university: '—',
+      image: '/images/profile-pictures/secretary-general/1721137577006.jpeg',
+      email: 'sg@kenyamodelun.or.ke',
+      linkedin: 'simon-kimuhu-muriithi',
       achievements: [
-        'Expanded KMUN ',
-        'Introduced virtual committee sessions',
-        'Established KMUN Scholarship Fund',
-        
+        'Strengthened inter-chapter coordination',
+        'Expanded partnerships and outreach',
+        'Enhanced conference planning standards'
       ],
-      biography: 'The SG has led KMUN through unprecedented growth, establishing new partnerships with international organizations and expanding our reach across East Africa.',
+      biography: 'Secretary General for the 25th Session overseeing KMUN\'s strategic direction and operations.',
       color: 'from-blue-600 to-blue-800'
     },
-    
     {
       id: 2,
-      name: 'DEPUTY SG',
+      name: 'Adalia Anya Barsito',
       position: 'Deputy Secretary General',
       session: '25th Session',
       year: '2025-2026',
-      university: 'Strathmore University',
-      image: '/images/profile-pictures/profile.jpg',
-      email: 'deputysg.kmun.org',
-      linkedin: 'deputysg-international-relations',
+      university: '—',
+      image: '/images/profile-pictures/deputy-secretary-general/1711269894818.jpeg',
+      email: 'dsg@kenyamodelun.or.ke',
+      linkedin: 'adalia-anya-barsito',
       achievements: [
         'Streamlined partnership protocols',
-        'Enhanced delegate training programs',
-        'Developed crisis simulation frameworks',
-        'Coordinated with UN Kenya office'
+        'Enhanced delegate support programs'
       ],
-      biography: 'The deputy SG brought exceptional organizational skills and international perspective to the Deputy SG role, strengthening KMUN\'s operational excellence.',
+      biography: 'Deputy Secretary General responsible for coordination and strategic initiatives across KMUN.',
       color: 'from-green-600 to-green-800'
     },
     {
       id: 3,
-      name: 'President of The General Assembly',
-      position: 'President of the General Assembly',
+      name: 'Owen Mbuthia',
+      position: 'Chief of Staff',
       session: '25th Session',
       year: '2025-2026',
-      university: 'Kenyatta University',
-      image: '/images/profile-pictures/kmun.jpg',
-      email: 'President of the General Assembly.kmun.org',
-      linkedin: 'President of the General Assembly',
+      university: '—',
+      image: '/images/profile-pictures/chief-of-staff/1721137577006.jpeg',
+      email: 'chiefofstaff@kenyamodelun.or.ke',
+      linkedin: 'owen-mbuthia',
       achievements: [
-        'Modernized GA procedures',
-        'Introduced inclusive debate formats',
-        'Enhanced resolution drafting process',
-        'Improved committee efficiency by 40%'
+        'Optimized organizational workflows',
+        'Improved inter-office coordination'
       ],
-      biography: 'President of the General Assembly revolutionized General Assembly operations with her academic expertise and innovative approach to diplomatic procedure.',
-      color: 'from-purple-600 to-purple-800'
+      biography: 'Chief of Staff overseeing operations and execution across KMUN offices.',
+      color: 'from-gray-600 to-gray-800'
     },
     {
       id: 4,
-      name: 'Chair of International Law Commission',
-      position: 'Chair of International Law Commission',
+      name: 'Elvis Mburu',
+      position: 'Deputy Chief of Staff',
       session: '25th Session',
       year: '2025-2026',
-      university: 'USIU-Africa',
-      image: '/images/profile-pictures/chair-of-commission-seal.jpg',
-      email: 'Chair of International Law Commission.kmun.org',
-      linkedin: '-international-law',
+      university: '—',
+      image: '/images/profile-pictures/default-male.jpg',
+      email: 'deputycos@kenyamodelun.or.ke',
+      linkedin: 'elvis-mburu',
       achievements: [
-        'Developed new ILC case studies',
-        'Enhanced legal research methodology',
-        'Established moot court program',
-        'Created legal writing workshops'
+        'Implemented digital management systems',
+        'Supported cross-team project delivery'
       ],
-      biography: 'Chair of International Law Commission brought her extensive legal expertise to elevate the ILC to new standards of excellence in international law simulation.',
-      color: 'from-indigo-600 to-indigo-800'
+      biography: 'Deputy Chief of Staff supporting KMUN executive operations.',
+      color: 'from-gray-600 to-gray-800'
     },
     {
       id: 5,
-      name: 'Hon. President of International Court of Justice',
-      position: 'President of International Court of Justice',
+      name: 'Abel Tobiko',
+      position: 'President of the International Court of Justice (PICJ)',
       session: '25th Session',
       year: '2025-2026',
-      university: 'Moi University',
-      image: '/images/profile-pictures/kmun.jpg',
-      email: 'President of International Court of Justice.kmun.org',
-      linkedin: 'icj',
+      university: '—',
+      image: '/images/profile-pictures/icj/president_icj.jpeg',
+      email: 'picj@kenyamodelun.or.ke',
+      linkedin: 'abel-tobiko',
       achievements: [
         'Introduced landmark case simulations',
-        'Enhanced judicial procedure training',
-        'Established ICJ alumni network',
-        'Improved case documentation system'
+        'Enhanced judicial procedure training'
       ],
-      biography: 'President of International Court of Justice transformed the ICJ experience with authentic judicial procedures and mentorship that prepared delegates for real legal careers.',
+      biography: 'Leads ICJ proceedings and mentorship for legal drafting and argumentation.',
       color: 'from-teal-600 to-teal-800'
     },
     {
       id: 6,
-      name: 'Chief of Staff',
-      position: 'Chief of Staff',
+      name: 'Macmillan Kamande',
+      position: 'Deputy President of the International Court of Justice (DPICJ)',
       session: '25th Session',
       year: '2025-2026',
-      university: 'Technical University of Kenya',
-      image: '/images/profile-pictures/profile.jpg',
-      email: 'Chief of Staff@.kmun.org',
-      linkedin: 'Chief of Staff',
+      university: '—',
+      image: '/images/profile-pictures/icj/deputy_president_icj.jpeg',
+      email: 'dpicj@kenyamodelun.or.ke',
+      linkedin: 'macmillan-kamande',
       achievements: [
-        'Optimized organizational workflows',
-        'Implemented digital management systems',
-        'Enhanced inter-office coordination',
-        'Developed leadership training programs'
+        'Coordinated case assignments',
+        'Improved case documentation workflows'
       ],
-      biography: 'Chief of Staff brought operational excellence and strategic thinking that transformed KMUN\'s internal coordination and efficiency.',
-      color: 'from-gray-600 to-gray-800'
+      biography: 'Supports the ICJ presidency and coordinates judicial activities.',
+      color: 'from-teal-600 to-teal-800'
     },
     {
       id: 7,
-      name: 'Finance Director',
-      position: 'Finance Director',
+      name: 'Abbigail Maggy',
+      position: 'Chair, International Law Commission (CILC)',
       session: '25th Session',
       year: '2025-2026',
-      university: 'Egerton University',
-      image: '/images/profile-pictures/profile.jpg',
-      email: 'Finance Director@.kmun.org',
-      linkedin: 'Finance Director',
+      university: '—',
+      image: '/images/profile-pictures/international-law-commission/chair_ilc.jpg',
+      email: 'cilc@kenyamodelun.or.ke',
+      linkedin: 'abbigail-maggy',
       achievements: [
-        'Achieved financial sustainability',
-        'Implemented transparent budgeting',
-        'Secured major sponsorship deals',
-        'Established financial aid programs'
+        'Developed new ILC case studies',
+        'Established legal writing workshops'
       ],
-      biography: 'Finance Director ensured KMUN\'s financial stability and growth through strategic financial management and innovative funding solutions.',
-      color: 'from-yellow-600 to-yellow-800'
+      biography: 'Chairs ILC sessions and guides substantive legal discussions.',
+      color: 'from-indigo-600 to-indigo-800'
     },
     {
       id: 8,
-      name: 'Amanda Ayeta Ingala',
+      name: 'John Charles',
+      position: 'Deputy Chair, International Law Commission (DCILC)',
+      session: '25th Session',
+      year: '2025-2026',
+      university: '—',
+      image: '/images/profile-pictures/international-law-commission/Deputy_chair_ILC.jpg',
+      email: 'dcilc@kenyamodelun.or.ke',
+      linkedin: 'john-charles',
+      achievements: [
+        'Led working groups',
+        'Enhanced legal research methodology'
+      ],
+      biography: 'Deputy Chair coordinating ILC working groups and research.',
+      color: 'from-indigo-600 to-indigo-800'
+    },
+    {
+      id: 9,
+      name: 'Harun Ali',
+      position: 'President of the General Assembly (PGA)',
+      session: '25th Session',
+      year: '2025-2026',
+      university: '—',
+      image: '/images/profile-pictures/general-assembly/pga.jpg',
+      email: 'pga@kenyamodelun.or.ke',
+      linkedin: 'harun-ali',
+      achievements: [
+        'Modernized GA procedures',
+        'Introduced inclusive debate formats'
+      ],
+      biography: 'Presides over General Assembly sessions and parliamentary procedure.',
+      color: 'from-purple-600 to-purple-800'
+    },
+    {
+      id: 10,
+      name: 'Stephanie Wangari',
+      position: 'Deputy President of the General Assembly (DPGA)',
+      session: '25th Session',
+      year: '2025-2026',
+      university: '—',
+      image: '/images/profile-pictures/general-assembly/deputy_pga.jpg',
+      email: 'dpga@kenyamodelun.or.ke',
+      linkedin: 'stephanie-wangari',
+      achievements: [
+        'Enhanced resolution drafting process',
+        'Improved committee efficiency'
+      ],
+      biography: 'Deputy presiding officer supporting GA operations.',
+      color: 'from-purple-600 to-purple-800'
+    },
+    {
+      id: 11,
+      name: 'Janet Wavinya',
+      position: 'Conference Director',
+      session: '25th Session',
+      year: '2025-2026',
+      university: '—',
+      image: '/images/profile-pictures/conference/conf_dir.jpg',
+      email: 'conferencedirector@kenyamodelun.or.ke',
+      linkedin: 'janet-wavinya',
+      achievements: [
+        'Led conference planning',
+        'Strengthened vendor partnerships'
+      ],
+      biography: 'Responsible for overall conference planning and delivery.',
+      color: 'from-teal-600 to-teal-800'
+    },
+    {
+      id: 12,
+      name: 'Mercy Ndanu',
+      position: 'Deputy Conference Director',
+      session: '25th Session',
+      year: '2025-2026',
+      university: '—',
+      image: '/images/profile-pictures/conference/dep_conf_dir.jpg',
+      email: 'depconfdir@kenyamodelun.or.ke',
+      linkedin: 'mercy-ndanu',
+      achievements: [
+        'Oversaw logistics coordination',
+        'Improved delegate support workflows'
+      ],
+      biography: 'Supports conference operations across functional teams.',
+      color: 'from-teal-600 to-teal-800'
+    },
+    {
+      id: 13,
+      name: 'Venessa Amuzie',
+      position: 'Finance Director',
+      session: '25th Session',
+      year: '2025-2026',
+      university: '—',
+      image: '/images/profile-pictures/finance/finance-seal.jpg',
+      email: 'finance@kenyamodelun.or.ke',
+      linkedin: 'venessa-amuzie',
+      achievements: [
+        'Implemented transparent budgeting',
+        'Secured sponsorships'
+      ],
+      biography: 'Oversees financial management and sustainability.',
+      color: 'from-yellow-600 to-yellow-800'
+    },
+    {
+      id: 14,
+      name: 'Shirlene Nyokabi',
+      position: 'Deputy Finance Director',
+      session: '25th Session',
+      year: '2025-2026',
+      university: '—',
+      image: '/images/profile-pictures/default-female.jpg',
+      email: 'deputyfinancedirector@kenyamodelun.or.ke',
+      linkedin: 'shirlene-nyokabi',
+      achievements: [
+        'Enhanced finance reporting',
+        'Supported budget execution'
+      ],
+      biography: 'Deputy finance lead supporting fiscal operations.',
+      color: 'from-yellow-600 to-yellow-800'
+    },
+    {
+      id: 15,
+      name: 'Amanda Ingala',
       position: 'Communications Director',
       session: '25th Session',
       year: '2025-2026',
-      university: 'Kenyatta University',
-      image: '/images/profile-pictures/communications-director-seal.jpg',
+      university: '—',
+      image: '/images/profile-pictures/communications/image.jpg',
       email: 'communications@kenyamodelun.or.ke',
-      linkedin: 'Amanda Ingala',
+      linkedin: 'amanda-ingala',
       achievements: [
-        'Revolutionized KMUN Modern Web presence',
         'Launched multimedia content strategy',
-        'Increased social media engagement by 80%',
-        'Established media partnerships'
+        'Increased social media engagement'
       ],
-      biography: 'Amanda has transformed KMUN\'s communications strategy, creating engaging content that connected with audiences across Kenya and beyond.',
+      biography: 'Oversees communications, media, and digital engagement.',
+      color: 'from-pink-600 to-pink-800'
+    },
+    {
+      id: 16,
+      name: 'Juanita Ndugi',
+      position: 'Deputy Communications Director',
+      session: '25th Session',
+      year: '2025-2026',
+      university: '—',
+      image: '/images/profile-pictures/default-female.jpg',
+      email: 'deputycommunications@kenyamodelun.or.ke',
+      linkedin: 'juanita-ndugi',
+      achievements: [
+        'Strengthened chapter comms coordination',
+        'Scaled content operations'
+      ],
+      biography: 'Supports communications planning and execution.',
       color: 'from-pink-600 to-pink-800'
     },
     

@@ -104,9 +104,9 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
-              { icon: Users, number: '30+', label: 'University Chapters' },
+              { icon: Users, number: '10+', label: 'University Chapters' },
               { icon: Globe, number: '1000+', label: 'Active Delegates' },
-              { icon: Calendar, number: '23', label: 'Years of Excellence' },
+              { icon: Calendar, number: '25', label: 'Years of Excellence' },
             ].map((stat, index) => {
               const Icon = stat.icon;
               return (

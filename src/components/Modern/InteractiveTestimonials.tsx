@@ -11,47 +11,58 @@ const InteractiveTestimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: 'Sarah Kimani',
-      role: 'Former Secretary General',
-      university: 'University of Nairobi',
-      image: '/images/profile-pictures/sarah-wanjiku.jpg',
-      content: 'KMUN transformed my understanding of international relations and equipped me with leadership skills that have been invaluable in my diplomatic career.',
+      name: 'Paul Nzioka',
+      role: 'Alumnus',
+      university: '—',
+      image: '/images/profile-pictures/default-male.jpg',
+      content: 'KMUN sharpened my leadership, negotiation, and public speaking skills in ways that continue to shape my career.',
       rating: 5,
-      year: '2023',
-      achievement: 'Currently working at UN Kenya Office'
+      year: '—',
+      achievement: '—'
     },
     {
       id: 2,
-      name: 'Michael Kiprotich',
-      role: 'Former Deputy Secretary General',
-      university: 'Strathmore University',
-      image: '/images/profile-pictures/michael-kiprotich.jpg',
-      content: 'The debate skills and cross-cultural understanding I gained at KMUN have been fundamental to my success in international business negotiations.',
+      name: 'Cadille Gathoni',
+      role: 'Alumna',
+      university: '—',
+      image: '/images/profile-pictures/default-female.jpg',
+      content: 'The community and mentorship at KMUN built my confidence and opened doors to new opportunities.',
       rating: 5,
-      year: '2022',
-      achievement: 'International Trade Consultant'
+      year: '—',
+      achievement: '—'
     },
     {
       id: 3,
-      name: 'Grace Wanjiru',
-      role: 'Former Communications Director',
-      university: 'Kenyatta University',
-      image: '/images/profile-pictures/default-female.jpg',
-      content: 'KMUN\'s emphasis on research and public speaking prepared me exceptionally well for my role in international journalism and policy analysis.',
+      name: 'Moses Mumo',
+      role: 'Alumnus',
+      university: '—',
+      image: '/images/profile-pictures/default-male.jpg',
+      content: 'From committee debates to leadership roles, KMUN gave me a platform to grow and serve.',
       rating: 5,
-      year: '2021',
-      achievement: 'BBC World Service Correspondent'
+      year: '—',
+      achievement: '—'
     },
     {
       id: 4,
-      name: 'James Mwangi',
-      role: 'Former President of GA',
-      university: 'Moi University',
-      image: '/images/profile-pictures/default-male.jpg',
-      content: 'The network I built through KMUN and the diplomatic protocols I learned have been crucial in my career in international development.',
+      name: 'Naima Chingwabi',
+      role: 'Alumna',
+      university: '—',
+      image: '/images/profile-pictures/default-female.jpg',
+      content: 'KMUN nurtured my interest in global affairs and sharpened my analytical thinking.',
       rating: 5,
-      year: '2020',
-      achievement: 'UNDP Program Officer'
+      year: '—',
+      achievement: '—'
+    },
+    {
+      id: 5,
+      name: 'Aurelia Chebet',
+      role: 'Alumna',
+      university: '—',
+      image: '/images/profile-pictures/default-female.jpg',
+      content: 'The exposure and networks from KMUN continue to guide my personal and professional journey.',
+      rating: 5,
+      year: '—',
+      achievement: '—'
     }
   ];
 

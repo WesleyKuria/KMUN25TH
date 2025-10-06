@@ -11,7 +11,6 @@ import ChapterDetail from "./pages/ChapterDetail";
 import Committees from "./pages/Committees";
 import Offices from "./pages/Offices";
 import Leadership from "./pages/Leadership";
-import Conference from "./pages/Conference";
 import Media from "./pages/Media";
 import Registration from "./pages/Registration";
 import Contact from "./pages/Contact";
@@ -34,7 +33,6 @@ const App = () => (
             <Route path="/committees" element={<Committees />} />
             <Route path="/offices" element={<Offices />} />
             <Route path="/leadership" element={<Leadership />} />
-            <Route path="/conference" element={<Conference />} />
             <Route path="/media" element={<Media />} />
             <Route path="/registration" element={<Registration />} />
             <Route path="/contact" element={<Contact />} />

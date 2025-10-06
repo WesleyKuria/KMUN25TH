@@ -17,7 +17,7 @@ This folder contains profile pictures for KMUN office members.
 
 ## Image Guidelines
 
-- Use high-quality images (minimum 300x300px)
+- images (minimum 300x300px)
 - Preferred formats: JPG, PNG, WebP
 - Keep file sizes reasonable (under 1MB)
 - Use descriptive filenames (e.g., `john-doe-secretary-general.jpg`)

@@ -22,9 +22,9 @@ const Offices = () => {
         {
           name: 'Secretary General',
           role: 'Chief Executive Officer',
-          person: 'Michael Kiprotich',
-          email: 'sg@kmun.org',
-          image: '/images/profile-pictures/kmun.jpg',
+          person: 'Simon Kimuhu Muriithi',
+          email: 'sg@kenyamodelun.or.ke',
+          image: '/images/profile-pictures/secretary-general/1721137577006.jpeg',
           description: 'Provides overall leadership and strategic direction for KMUN.'
         },
         {
@@ -94,17 +94,17 @@ const Offices = () => {
         {
           name: 'President of General Assembly',
           role: 'Presiding Officer',
-          person: 'John Mutua',
-          email: 'ga.president@kmun.org',
-          image: '/images/profile-pictures/default-male.jpg',
+          person: 'Harun Ali',
+          email: 'pga@kenyamodelun.or.ke',
+          image: '/images/profile-pictures/general-assembly/pga.jpg',
           description: 'Presides over General Assembly sessions and maintains order.'
         },
         {
           name: 'Vice President',
           role: 'Deputy Presiding Officer',
-          person: 'Grace Wanjiru',
-          email: 'ga.vp@kmun.org',
-          image: '/images/profile-pictures/default-female.jpg',
+          person: 'Stephanie Wangari',
+          email: 'dpga@kenyamodelun.or.ke',
+          image: '/images/profile-pictures/general-assembly/deputy_pga.jpg',
           description: 'Assists the President and handles special assignments.'
         },
         {
@@ -126,10 +126,18 @@ const Offices = () => {
         {
           name: 'Communications Director',
           role: 'Head of Communications',
-          person: 'Amanda ',
-          email: 'communications@kmun.org',
-          image: '/images/profile-pictures/image.jpg',
+          person: 'Amanda Ingala',
+          email: 'communications@kenyamodelun.or.ke',
+          image: '/images/profile-pictures/communications/image.jpg',
           description: 'Oversees all communication strategies and public relations.'
+        },
+        {
+          name: 'Deputy Communications Director',
+          role: 'Deputy Communications Lead',
+          person: 'Juanita Ndugi',
+          email: 'deputycommunications@kenyamodelun.or.ke',
+          image: '/images/profile-pictures/default-female.jpg',
+          description: 'Supports communications operations and chapter coordination.'
         },
         {
           name: 'Web Developers',
@@ -190,9 +198,9 @@ const Offices = () => {
         {
           name: 'Deputy Secretary General',
           role: 'Deputy Chief Executive',
-          person: 'Catherine Njeri',
-          email: 'deputy.sg@kmun.org',
-          image: '/images/profile-pictures/default-female.jpg',
+          person: 'Adalia Anya Barsito',
+          email: 'dsg@kenyamodelun.or.ke',
+          image: '/images/profile-pictures/deputy-secretary-general/1711269894818.jpeg',
           description: 'Assists the SG and oversees partnership development.'
         },
         {
@@ -212,19 +220,19 @@ const Offices = () => {
       color: 'from-indigo-600 to-indigo-800',
       subOffices: [
         {
-          name: 'President of ICJ',
+          name: 'President of ICJ (PICJ)',
           role: 'Chief Justice',
-          person: 'Prof. Margaret Kenyatta',
-          email: 'icj.president@kmun.org',
-          image: '/images/profile-pictures/default-female.jpg',
+          person: 'Abel Tobiko',
+          email: 'picj@kenyamodelun.or.ke',
+          image: '/images/profile-pictures/icj/president_icj.jpeg',
           description: 'Presides over ICJ proceedings and ensures legal procedures.'
         },
         {
-          name: 'Vice President of ICJ',
+          name: 'Deputy President of ICJ (DPICJ)',
           role: 'Deputy Chief Justice',
-          person: 'Dr. Joseph Kimutai',
-          email: 'icj.vp@kmun.org',
-          image: '/images/profile-pictures/default-male.jpg',
+          person: 'Macmillan Kamande',
+          email: 'dpicj@kenyamodelun.or.ke',
+          image: '/images/profile-pictures/icj/deputy_president_icj.jpeg',
           description: 'Assists the President and handles case assignments.'
         },
         {
@@ -246,17 +254,17 @@ const Offices = () => {
         {
           name: 'Conference Director',
           role: 'Head of Conference',
-          person: 'Janet Wavinya Mutua',
-          email: 'conference@kmun.org',
-          image: '/images/profile-pictures/default-male.jpg',
+          person: 'Janet Wavinya',
+          email: 'conferencedirector@kenyamodelun.or.ke',
+          image: '/images/profile-pictures/conference/conf_dir.jpg',
           description: 'Oversees all aspects of conference planning and execution.'
         },
         {
           name: 'Deputy Conference Director',
           role: 'Assistant Director',
-          person: 'Mercy Ndanu Ouma',
-          email: 'deputy.conference@kmun.org',
-          image: '/images/profile-pictures/default-female.jpg',
+          person: 'Mercy Ndanu',
+          email: 'depconfdir@kenyamodelun.or.ke',
+          image: '/images/profile-pictures/conference/dep_conf_dir.jpg',
           description: 'Supports the Director and manages specific conference areas.'
         },
         {
@@ -302,16 +310,16 @@ const Offices = () => {
         {
           name: 'Finance Director',
           role: 'Chief Financial Officer',
-          person: 'CPA Moses Kiplagat',
-          email: 'finance@kmun.org',
-          image: '/images/profile-pictures/default-male.jpg',
+          person: 'Venessa Amuzie',
+          email: 'finance@kenyamodelun.or.ke',
+          image: '/images/profile-pictures/finance/finance-seal.jpg',
           description: 'Oversees all financial operations and fiscal management.'
         },
         {
           name: 'Deputy Finance Director',
           role: 'Assistant CFO',
-          person: 'Agnes Wanjiru',
-          email: 'deputy.finance@kmun.org',
+          person: 'Shirlene Nyokabi',
+          email: 'deputyfinancedirector@kenyamodelun.or.ke',
           image: '/images/profile-pictures/default-female.jpg',
           description: 'Assists with financial planning and budget management.'
         },
@@ -332,19 +340,19 @@ const Offices = () => {
       color: 'from-cyan-600 to-cyan-800',
       subOffices: [
         {
-          name: 'Chairperson of ILC',
+          name: 'Chairperson of ILC (CILC)',
           role: 'Commission Chair',
-          person: 'Prof. Elizabeth Wambui',
-          email: 'ilc.chair@kmun.org',
-          image: '/images/profile-pictures/default-female.jpg',
+          person: 'Abbigail Maggy',
+          email: 'cilc@kenyamodelun.or.ke',
+          image: '/images/profile-pictures/international-law-commission/chair_ilc.jpg',
           description: 'Chairs ILC sessions and guides legal discussions.'
         },
         {
-          name: 'Vice Chairperson',
+          name: 'Deputy Chairperson (DCILC)',
           role: 'Deputy Chair',
-          person: 'Dr. Francis Macharia',
-          email: 'ilc.vicechair@kmun.org',
-          image: '/images/profile-pictures/default-male.jpg',
+          person: 'John Charles',
+          email: 'dcilc@kenyamodelun.or.ke',
+          image: '/images/profile-pictures/international-law-commission/Deputy_chair_ILC.jpg',
           description: 'Supports the Chair and leads working groups.'
         },
         {
@@ -366,17 +374,17 @@ const Offices = () => {
         {
           name: 'Chief of Staff',
           role: 'Operations Coordinator',
-          person: 'Dr. Peter Waweru',
-          email: 'chief.of.staff@kmun.org',
-          image: '/images/profile-pictures/default-male.jpg',
+          person: 'Owen Mbuthia',
+          email: 'chiefofstaff@kenyamodelun.or.ke',
+          image: '/images/profile-pictures/chief-of-staff/1721137577006.jpeg',
           description: 'Coordinates executive operations and strategic initiatives.'
         },
         {
           name: 'Deputy Chief of Staff',
           role: 'Assistant Coordinator',
-          person: 'Linda Chepkemoi',
-          email: 'deputy.cos@kmun.org',
-          image: '/images/profile-pictures/default-female.jpg',
+          person: 'Elvis Mburu',
+          email: 'deputycos@kenyamodelun.or.ke',
+          image: '/images/profile-pictures/default-male.jpg',
           description: 'Supports the Chief of Staff and manages special projects.'
         }
       ]
@@ -485,15 +493,15 @@ const Offices = () => {
                            
 
                     <img
-                      src={member.person}
+                      src={member.image}
                       alt={member.person}
                       className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-white/30 object-cover group-hover:scale-110 transition-transform duration-300"
                       onError={(e) => {
-                        console.error(`Failed to load image: ${member.person} for ${member.person}`);
+                        console.error(`Failed to load image: ${member.image} for ${member.person}`);
                         e.currentTarget.src = '/images/profile-pictures/profile.jpg';
                       }}
                       onLoad={() => {
-                        console.log(`Successfully loaded image: ${member.person} for ${member.person}`);
+                        console.log(`Successfully loaded image: ${member.image} for ${member.person}`);
                       }}
                     />
 

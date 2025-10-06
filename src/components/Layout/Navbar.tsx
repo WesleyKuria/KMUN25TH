@@ -15,7 +15,7 @@ const Navbar = () => {
     { name: 'Committees', href: '/committees', icon: Users },
     { name: 'Offices', href: '/offices', icon: Building },
     { name: 'Leadership', href: '/leadership', icon: Award },
-    { name: 'Conference', href: '/conference', icon: Calendar },
+    
     { name: 'Media', href: '/media', icon: Camera },
     { name: 'Contact', href: '/contact', icon: Phone },
   ];
@@ -62,25 +62,15 @@ const Navbar = () => {
             })}
           </div>
 
-          {/* CTA Button & Theme Toggle */}
+          {/* Theme Toggle */}
           <div className="hidden lg:flex items-center space-x-3 flex-shrink-0">
             <ThemeToggle />
-            <Link to="/registration">
-              <Button variant="diplomatic">
-                Register Now
-              </Button>
-            </Link>
           </div>
 
           {/* Medium screen CTA & Mobile menu button & theme toggle */}
           <div className="flex items-center space-x-2">
             <div className="hidden md:flex lg:hidden">
               <ThemeToggle />
-              <Link to="/registration" className="ml-2">
-                <Button variant="diplomatic" size="sm">
-                  Register
-                </Button>
-              </Link>
             </div>
           <div className="lg:hidden flex items-center space-x-2">
             <ThemeToggle />
@@ -118,13 +108,7 @@ const Navbar = () => {
                 </Link>
               );
             })}
-            <div className="mt-4 px-3">
-              <Link to="/registration">
-                <Button variant="diplomatic" className="w-full">
-                  Register Now
-                </Button>
-              </Link>
-            </div>
+            
           </div>
         </div>
       )}

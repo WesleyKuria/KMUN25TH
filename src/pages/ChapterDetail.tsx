@@ -24,7 +24,7 @@ const ChapterDetail = () => {
       email: 'unon@kmun.org',
       description: 'The flagship chapter of KMUN, representing the premier university in Kenya. Our members are passionate about international relations and diplomacy.',
       bannerImage: '/images/chapters/uonbanner2.jpg',
-      logo: '/images/chapters/uon.jpg',
+      logo: '/images/chapters/uon-logo.jpg', // expected: uon-logo.jpg
       gallery: [
         '/images/chapters/uon1.jpg',
         '/images/chapters/uon2.jpg',
@@ -44,6 +44,141 @@ const ChapterDetail = () => {
         { date: '2025-09-15', event: 'Chapter Meeting', location: 'Main Campus' },
         { date: '2025-10-01', event: 'Mock UN Session', location: 'Assembly Hall' }
       ]
+    },
+    {
+      id: 3,
+      slug: 'rongo-university',
+      university: 'Rongo University',
+      location: 'Rongo, Kenya',
+      lead: 'Olodi Arnold Maurice',
+      members: 25,
+      established: '2024',
+      email: 'rongo@kenyamodelun.or.ke',
+      description: 'A legacy of shaping leaders and voices. Founded on 4 Aug 2024 during SG Moses Mumo\'s tenure.',
+      bannerImage: '/images/chapters/rongo-banner.jpg', // expected: rongo-banner.jpg
+      logo: '/images/chapters/rongo-logo.jpg', // expected: rongo-logo.jpg
+      gallery: [],
+      achievements: [
+        'Active GA and ILC simulations',
+        'Community clean-ups and debates',
+        'Growing membership and digital presence'
+      ],
+      upcomingEvents: []
+    },
+    {
+      id: 4,
+      slug: 'africa-nazarene-university',
+      university: 'Africa Nazarene University',
+      location: 'Nairobi, Kenya',
+      lead: 'Victor Mwangolo',
+      members: 43,
+      established: '2004',
+      email: 'anu@kenyamodelun.or.ke',
+      description: 'Founded in 2004 by Muthoni Mahinda; transformative inaugural participation in 2005; sustained leadership legacy.',
+      bannerImage: '/images/chapters/anu-banner.jpg', // expected: anu-banner.jpg
+      logo: '/images/chapters/anu-logo.jpg', // expected: anu-logo.jpg
+      gallery: [],
+      achievements: [
+        'Transport-supported participation in early years',
+        'Strong skill-building in diplomacy and debate'
+      ],
+      upcomingEvents: []
+    },
+    {
+      id: 5,
+      slug: 'jkuat-main-campus',
+      university: 'JKUAT Main Campus',
+      location: 'Juja, Kenya',
+      lead: 'Meek Amani',
+      members: 80,
+      established: '2019',
+      email: 'jkuatmain@kenyamodelun.or.ke',
+      description: 'Started in 2019; attained legitimacy in 2022; award-winning and structurally strong chapter.',
+      bannerImage: '/images/chapters/jkuat-banner.jpg', // expected: jkuat-banner.jpg
+      logo: '/images/chapters/jkuat-logo.jpg', // expected: jkuat-logo.jpg
+      gallery: [],
+      achievements: [
+        'Best in-town chapter (24th Session)',
+        'Most improved chapter (24th Session)',
+        'Best ILC takeover (25th Session)'
+      ],
+      upcomingEvents: []
+    },
+    {
+      id: 6,
+      slug: 'kca-university',
+      university: 'KCA University',
+      location: 'Nairobi, Kenya',
+      lead: 'Annette Sebby',
+      members: 60,
+      established: '2024',
+      email: 'kca@kenyamodelun.or.ke',
+      description: 'Conceived Dec 2023, established Jan 2024. Culture of informed, intentional, impactful youth leadership.',
+      bannerImage: '/images/chapters/kca-banner.jpg', // expected: kca-banner.jpg
+      logo: '/images/chapters/kca-logo.jpg', // expected: kca-logo.jpg
+      gallery: [],
+      achievements: [
+        'First KCA member in national secretariat at 25th Session',
+        'Inaugural local elections and award-winning delegates'
+      ],
+      upcomingEvents: []
+    },
+    {
+      id: 7,
+      slug: 'multimedia-university',
+      university: 'Multimedia University',
+      location: 'Nairobi, Kenya',
+      lead: 'Eugene Gusmao',
+      members: 70,
+      established: '2018',
+      email: 'mmu@kenyamodelun.or.ke',
+      description: 'In existence since the 18th Session; consistent performance and structured leadership.',
+      bannerImage: '/images/chapters/mmu-banner.jpg', // expected: mmu-banner.jpg
+      logo: '/images/chapters/mmu-logo.jpg', // expected: mmu-logo.jpg
+      gallery: [],
+      achievements: [
+        'Sustained growth across 21st-25th sessions',
+        'Robust committees and leadership pipeline'
+      ],
+      upcomingEvents: []
+    },
+    {
+      id: 8,
+      slug: 'cuea',
+      university: 'Catholic University of Eastern Africa (CUEA)',
+      location: 'Nairobi, Kenya',
+      lead: 'Kyle Joseph',
+      members: 85,
+      established: '2017',
+      email: 'cuea@kenyamodelun.or.ke',
+      description: 'Founded in 2017; multiple best chapter awards; strong digital engagement legacy.',
+      bannerImage: '/images/chapters/cuea-banner.jpg', // expected: cuea-banner.jpg
+      logo: '/images/chapters/cuea-logo.jpg', // expected: cuea-logo.jpg
+      gallery: [],
+      achievements: [
+        'Best Chapter: 17th, 23rd, 24th Sessions',
+        'Best Digital Engagement: 23rd Session'
+      ],
+      upcomingEvents: []
+    },
+    {
+      id: 9,
+      slug: 'maseno-university',
+      university: 'Maseno University',
+      location: 'Kisumu, Kenya',
+      lead: 'Milcah Chepkoech',
+      members: 50,
+      established: '2022',
+      email: 'maseno@kenyamodelun.or.ke',
+      description: 'Formed in 2022; GA and ILC focus with chapter and individual accolades.',
+      bannerImage: '/images/chapters/maseno-banner.jpg', // expected: maseno-banner.jpg
+      logo: '/images/chapters/maseno-logo.jpg', // expected: maseno-logo.jpg
+      gallery: [],
+      achievements: [
+        'Best out-of-town chapter: 23rd Session',
+        'UN Women recognition: 24th Session'
+      ],
+      upcomingEvents: []
     },
     {
       id: 2,
